@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <script>
+ 
+$(document).ready(function(){
+    $(".iwao .hide").click(function(){
+        $(this).parents(".iwao").hide("slow");
+    });
+});
+
+</script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <style>
+            @font-face {
+  font-family: 'Eight Track';
+  src: url('http://www.fontsaddict.com/fontface/eight-track.TTF');
+}
+button {
+  font-family: 'Eight Track';
+  src: url('http://www.fontsaddict.com/fontface/eight-track.TTF');
+  
+}
+
+        </style>
+         <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <div id="dan">
+            <button onclick="dan()">Click me!</button>
+        </div>
+        
+        <div id="iwao">
+            <button class="iwao">Click me!</button>
+        </div>
+    </center>
+        <script>
+function dan() {
+    alert("Hey! You clicked on me!");
+}
+</script>
+
+
+    </body>
+</html>
